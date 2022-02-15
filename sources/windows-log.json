@@ -1,0 +1,13 @@
+{
+    "api.version":"v1",
+    "sources":[
+       {
+          "sourceType":"LocalWindowsEventLog",
+          "name":"WindowsEventLog",
+          "allowlist":"100,101,102,103,104,105",
+          "logNames":["Security","Application","System"],
+          "eventFormat":1,
+          "eventMessage":1
+       }
+    ]
+ }
