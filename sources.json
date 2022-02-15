@@ -1,0 +1,45 @@
+{
+    "api.version":"v1",
+    "sources":[{
+      "name":"Active Directory",
+      "category":"{{sys.PATH}}-{{sys.YourEnvVar}}",
+      "automaticDateParsing":true,
+      "multilineProcessingEnabled":false,
+      "useAutolineMatching":false,
+      "forceTimeZone":true,
+      "timeZone":"Europe/Stockholm",
+      "filters":[],
+      "cutoffTimestamp":0,
+      "encoding":"UTF-8",
+      "fields":{
+        
+      },
+      "nameSuffixes":"",
+      "filter":"",
+      "interval":86400,
+      "additionalAttr":"",
+      "excludedAttr":"",
+      "sourceType":"ActiveDirectory"
+    },{
+      "name":"Windows Logs",
+      "category":"{{sys.PATH}}-{{sys.YourEnvVar}}",
+      "automaticDateParsing":true,
+      "multilineProcessingEnabled":false,
+      "useAutolineMatching":false,
+      "forceTimeZone":false,
+      "filters":[],
+      "cutoffTimestamp":1644777000000,
+      "encoding":"UTF-8",
+      "fields":{
+        
+      },
+      "allowlist":"",
+      "renderMessages":true,
+      "logNames":["Security","Application","System"],
+      "denylist":"",
+      "eventFormat":1,
+      "eventMessage":1,
+      "sidStyle":2,
+      "sourceType":"LocalWindowsEventLog"
+    }]
+  }
