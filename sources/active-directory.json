@@ -2,7 +2,7 @@
     "api.version":"v1",
     "source":{
       "name":"AD",
-      "category":"{{sys.PATH}}-{{sys.YourEnvVar}}",
+      "category":"/Lofbergs/ActiveDirectory",
       "automaticDateParsing":false,
       "multilineProcessingEnabled":false,
       "useAutolineMatching":false,
